@@ -109,17 +109,12 @@ Application Programming Interface.
 
 ---
 
-## 엘리먼트 크기
+## 엘리먼트 크기 및 위치
 
+- `el.getBoundingClientRect()`
 - `el.offsetHeight` / `el.offsetWidth`
 - `el.clientHeight` / `el.clientWidth`
 - `el.scrollHeight` / `el.scrollWidth`
-
----
-
-## 엘리먼트 위치
-
 - `el.offsetTop` / `el.offsetLeft`
-- `el.clientTop` / `el.clientLeft`
 - `el.scrollTop` / `el.scrollLeft`
-- `el.getBoundingClientRect()`
+- `el.clientTop` / `el.clientLeft`
