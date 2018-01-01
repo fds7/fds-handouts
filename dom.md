@@ -1,7 +1,3 @@
-# 브라우저 측 JavaScript
-
----
-
 ## API
 
 Application Programming Interface.
@@ -19,14 +15,9 @@ Application Programming Interface.
 - Document Object Model, 문서 객체 모델
 - HTML, XML 문서를 프로그래밍하는 인터페이스
 - JavaScript에만 있는 것이 아님
-
----
-
-[DOM](https://developer.mozilla.org/ko/docs/DOM)
-
----
-
-[트리](https://javascript-fds.netlify.com/pages/282-data-structures#트리-tree)
+- 웹 브라우저에서는 DOM API를 기반으로 여러 부가 기능을 사용할 수 있음
+- [MDN DOM](https://developer.mozilla.org/ko/docs/DOM)
+- [트리](https://javascript-fds.netlify.com/pages/282-data-structures#트리-tree)
 
 ---
 
@@ -83,8 +74,8 @@ Application Programming Interface.
 
 ## DOM 노드 생성
 
-- `el.createElement`
-- `el.createTextNode`
+- `document.createElement`
+- `document.createTextNode`
 - `el.cloneNode`
 
 ---
@@ -103,3 +94,32 @@ Application Programming Interface.
 ## dataset
 
 - `el.dataset`
+
+---
+
+## 노드 간 관계
+
+- `el.childNodes`
+- `el.firstChild`
+- `el.lastChild`
+- `el.previousSibling`
+- `el.nextSibling`
+- `el.parentNode`
+- `el.offsetParent`
+
+---
+
+## 엘리먼트 크기
+
+- `el.offsetHeight` / `el.offsetWidth`
+- `el.clientHeight` / `el.clientWidth`
+- `el.scrollHeight` / `el.scrollWidth`
+
+---
+
+## 엘리먼트 위치
+
+- `el.offsetTop` / `el.offsetLeft`
+- `el.clientTop` / `el.clientLeft`
+- `el.scrollTop` / `el.scrollLeft`
+- `el.getBoundingClientRect()`
